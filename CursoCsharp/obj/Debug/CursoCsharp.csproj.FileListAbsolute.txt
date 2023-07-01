@@ -1,0 +1,9 @@
+C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\bin\Debug\CursoCsharp.exe
+C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\bin\Debug\CursoCsharp.pdb
+C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.csproj.AssemblyReference.cache
+C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.Form1.resources
+C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.Properties.Resources.resources
+C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.csproj.GenerateResource.cache
+C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.csproj.CoreCompileInputs.cache
+C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.exe
+C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.pdb
