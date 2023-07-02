@@ -45,10 +45,17 @@ namespace CursoCsharp.OperadoresAritmeticos
 
         private void Suma()
         {
-            numero1 = Convert.ToInt32(txtnumero1.Text);
-            numero2 = Convert.ToInt32(txtnumero2.Text);
-            resultado = numero1 + numero2;
-            lblresultado.Text = resultado.ToString();
+            try
+            {
+                numero1 = Convert.ToInt32(txtnumero1.Text);
+                numero2 = Convert.ToInt32(txtnumero2.Text);
+                resultado = numero1 + numero2;
+                lblresultado.Text = resultado.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.StackTrace);
+            }
         }
 
         private void Resta()
