@@ -47,8 +47,10 @@ namespace CursoCsharp.OperadoresAritmeticos
         {
             try
             {
-                numero1 = Convert.ToInt32(txtnumero1.Text);
-                numero2 = Convert.ToInt32(txtnumero2.Text);
+                txtnumero1.Text = txtnumero1.Text.Replace(",", ".");
+                txtnumero2.Text = txtnumero2.Text.Replace(",", ".");
+                numero1 = Convert.ToDouble(txtnumero1.Text);
+                numero2 = Convert.ToDouble(txtnumero2.Text);
                 resultado = numero1 + numero2;
                 lblresultado.Text = resultado.ToString();
             }
@@ -60,26 +62,62 @@ namespace CursoCsharp.OperadoresAritmeticos
 
         private void Resta()
         {
-            numero1 = Convert.ToInt32(txtnumero1.Text);
-            numero2 = Convert.ToInt32(txtnumero2.Text);
-            resultado = numero1 - numero2;
-            lblresultado.Text = resultado.ToString();
+            try
+            {
+                txtnumero1.Text = txtnumero1.Text.Replace(",", ".");
+                txtnumero2.Text = txtnumero2.Text.Replace(",", ".");
+                numero1 = Convert.ToDouble(txtnumero1.Text);
+                numero2 = Convert.ToDouble(txtnumero2.Text);
+                resultado = numero1 - numero2;
+                lblresultado.Text = resultado.ToString();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.StackTrace);
+            }
+
         }
 
         private void Multiplicacion()
         {
-            numero1 = Convert.ToInt32(txtnumero1.Text);
-            numero2 = Convert.ToInt32(txtnumero2.Text);
-            resultado = numero1 * numero2;
-            lblresultado.Text = resultado.ToString();
+            try
+            {
+                txtnumero1.Text = txtnumero1.Text.Replace(",", ".");
+                txtnumero2.Text = txtnumero2.Text.Replace(",", ".");
+                numero1 = Convert.ToDouble(txtnumero1.Text);
+                numero2 = Convert.ToDouble(txtnumero2.Text);
+                resultado = numero1 * numero2;
+                lblresultado.Text = resultado.ToString();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.StackTrace);
+            }
+
         }
 
         private void Division()
         {
-            numero1 = Convert.ToInt32(txtnumero1.Text);
-            numero2 = Convert.ToInt32(txtnumero2.Text);
-            resultado = numero1 / numero2;
-            lblresultado.Text = resultado.ToString();
+            try
+            {
+                txtnumero1.Text = txtnumero1.Text.Replace(",", ".");
+                txtnumero2.Text = txtnumero2.Text.Replace(",", ".");
+                numero1 = Convert.ToDouble(txtnumero1.Text);
+                numero2 = Convert.ToDouble(txtnumero2.Text);
+                resultado = numero1 / numero2;
+                lblresultado.Text = resultado.ToString();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.StackTrace);
+            }
+
         }
+
+
+
     }
 }

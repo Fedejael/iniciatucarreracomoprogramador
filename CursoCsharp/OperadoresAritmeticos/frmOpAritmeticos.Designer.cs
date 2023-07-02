@@ -42,6 +42,7 @@ namespace CursoCsharp.OperadoresAritmeticos
             this.btnmultiplicacion = new System.Windows.Forms.Button();
             this.btndivision = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label4 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -191,12 +192,24 @@ namespace CursoCsharp.OperadoresAritmeticos
             this.flowLayoutPanel1.Size = new System.Drawing.Size(227, 60);
             this.flowLayoutPanel1.TabIndex = 12;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(124)))));
+            this.label4.Location = new System.Drawing.Point(163, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(391, 39);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "Operadores aritmeticos";
+            // 
             // frmOpAritmeticos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.lblresultado);
             this.Controls.Add(this.label3);
@@ -233,5 +246,6 @@ namespace CursoCsharp.OperadoresAritmeticos
         private System.Windows.Forms.Button btnmultiplicacion;
         private System.Windows.Forms.Button btndivision;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label label4;
     }
 }
