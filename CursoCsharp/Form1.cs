@@ -15,5 +15,11 @@ namespace CursoCsharp
         {
             InitializeComponent();
         }
+        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Console.WriteLine("Hola mundo");
+            Console.ReadLine();
+        }
     }
 }
