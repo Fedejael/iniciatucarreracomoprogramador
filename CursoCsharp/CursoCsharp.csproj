@@ -56,6 +56,12 @@
     <Compile Include="OperadoresAritmeticos\frmOpAritmeticos.Designer.cs">
       <DependentUpon>frmOpAritmeticos.cs</DependentUpon>
     </Compile>
+    <Compile Include="OperadoresLogicos\frmOpLogicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperadoresLogicos\frmOpLogicos.Designer.cs">
+      <DependentUpon>frmOpLogicos.cs</DependentUpon>
+    </Compile>
     <Compile Include="OperadoresRelacionales\frmOpRelacionales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OperadoresAritmeticos\frmOpAritmeticos.resx">
       <DependentUpon>frmOpAritmeticos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperadoresLogicos\frmOpLogicos.resx">
+      <DependentUpon>frmOpLogicos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OperadoresRelacionales\frmOpRelacionales.resx">
       <DependentUpon>frmOpRelacionales.cs</DependentUpon>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using CursoCsharp.OperadoresRelacionales;
+using CursoCsharp.OperadoresLogicos;
 
 namespace CursoCsharp
 {
@@ -16,7 +17,7 @@ namespace CursoCsharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmOpRelacionales());
+            Application.Run(new frmOpLogicos());
         }
     }
 }
