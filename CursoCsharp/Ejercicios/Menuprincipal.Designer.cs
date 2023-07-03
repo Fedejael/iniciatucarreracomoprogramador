@@ -30,11 +30,11 @@ namespace CursoCsharp.Ejercicios
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnE1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnE1 = new System.Windows.Forms.Button();
+            this.btnE2 = new System.Windows.Forms.Button();
+            this.btnE3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelVisor = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -50,17 +50,16 @@ namespace CursoCsharp.Ejercicios
             this.panel1.Size = new System.Drawing.Size(271, 450);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // flowLayoutPanel1
             // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(271, 39);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Ejercicios";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.flowLayoutPanel1.Controls.Add(this.btnE1);
+            this.flowLayoutPanel1.Controls.Add(this.btnE2);
+            this.flowLayoutPanel1.Controls.Add(this.btnE3);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 53);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(271, 397);
+            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // btnE1
             // 
@@ -73,48 +72,51 @@ namespace CursoCsharp.Ejercicios
             this.btnE1.Name = "btnE1";
             this.btnE1.Size = new System.Drawing.Size(241, 93);
             this.btnE1.TabIndex = 0;
-            this.btnE1.Text = "Ejercicio 1\r\n{Operadores Aritmetico}";
+            this.btnE1.Text = "Ejercicio 1\r\n{Operadores Aritmeticos}";
             this.btnE1.UseVisualStyleBackColor = false;
             this.btnE1.Click += new System.EventHandler(this.btnE1_Click);
             // 
-            // flowLayoutPanel1
+            // btnE2
             // 
-            this.flowLayoutPanel1.Controls.Add(this.btnE1);
-            this.flowLayoutPanel1.Controls.Add(this.button2);
-            this.flowLayoutPanel1.Controls.Add(this.button3);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 39);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(271, 411);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.btnE2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.btnE2.FlatAppearance.BorderSize = 0;
+            this.btnE2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnE2.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnE2.ForeColor = System.Drawing.Color.White;
+            this.btnE2.Location = new System.Drawing.Point(3, 102);
+            this.btnE2.Name = "btnE2";
+            this.btnE2.Size = new System.Drawing.Size(241, 93);
+            this.btnE2.TabIndex = 1;
+            this.btnE2.Text = "Ejercicio 2\r\n{Operadores Relacionales}";
+            this.btnE2.UseVisualStyleBackColor = false;
+            this.btnE2.Click += new System.EventHandler(this.btnE2_Click);
             // 
-            // button2
+            // btnE3
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(3, 102);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(241, 93);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Ejercicio 2\r\n{Operadores Relacionales}";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnE3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.btnE3.FlatAppearance.BorderSize = 0;
+            this.btnE3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnE3.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnE3.ForeColor = System.Drawing.Color.White;
+            this.btnE3.Location = new System.Drawing.Point(3, 201);
+            this.btnE3.Name = "btnE3";
+            this.btnE3.Size = new System.Drawing.Size(241, 93);
+            this.btnE3.TabIndex = 2;
+            this.btnE3.Text = "Ejercicio 3\r\n{Operadores Aritmeticos}";
+            this.btnE3.UseVisualStyleBackColor = false;
+            this.btnE3.Click += new System.EventHandler(this.btnE3_Click);
             // 
-            // button3
+            // label1
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(3, 201);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(241, 93);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Ejercicio 3\r\n{Operadores Aritmeticos}";
-            this.button3.UseVisualStyleBackColor = false;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Consolas", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(271, 53);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Ejercicios";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelVisor
             // 
@@ -148,8 +150,8 @@ namespace CursoCsharp.Ejercicios
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnE1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnE2;
+        private System.Windows.Forms.Button btnE3;
         private System.Windows.Forms.Panel panelVisor;
     }
 }

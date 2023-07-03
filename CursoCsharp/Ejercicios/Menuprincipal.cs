@@ -27,8 +27,34 @@ namespace CursoCsharp.Ejercicios
             ctl.titulo = btnE1.Text;
             ctl.Dock = DockStyle.Fill;
             panelVisor.Controls.Add(ctl);
-            ctl.Show();
-            
+            ctl.Show();            
         }
+
+        private void btnE2_Click(object sender, EventArgs e)
+        {
+            Ejercicio2();
+        }
+        private void Ejercicio2()
+        {
+            Ejercicio2 ctl = new Ejercicio2();
+            ctl.titulo = btnE2.Text;
+            ctl.Dock = DockStyle.Fill;
+            panelVisor.Controls.Add(ctl);
+            ctl.Show();
+        }
+
+        private void btnE3_Click(object sender, EventArgs e)
+        {
+            Ejercicio3();
+        }
+        private void Ejercicio3()
+        {
+            Ejercicio3 ctl = new Ejercicio3();
+            ctl.titulo = btnE3.Text;
+            ctl.Dock = DockStyle.Fill;
+            panelVisor.Controls.Add(ctl);
+            ctl.Show();
+        }
+
     }
 }
