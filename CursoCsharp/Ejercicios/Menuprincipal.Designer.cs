@@ -102,7 +102,7 @@ namespace CursoCsharp.Ejercicios
             this.btnE3.Name = "btnE3";
             this.btnE3.Size = new System.Drawing.Size(241, 93);
             this.btnE3.TabIndex = 2;
-            this.btnE3.Text = "Ejercicio 3\r\n{Operadores Aritmeticos}";
+            this.btnE3.Text = "Ejercicio 3\r\n{Operadores Logicos-relacionales}";
             this.btnE3.UseVisualStyleBackColor = false;
             this.btnE3.Click += new System.EventHandler(this.btnE3_Click);
             // 
