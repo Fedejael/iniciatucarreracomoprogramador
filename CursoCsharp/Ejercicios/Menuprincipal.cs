@@ -23,6 +23,7 @@ namespace CursoCsharp.Ejercicios
         }
         private void Ejercicio1()
         {
+            panelVisor.Controls.Clear();
             Ejercicio1 ctl = new Ejercicio1();
             ctl.titulo = btnE1.Text;
             ctl.Dock = DockStyle.Fill;
@@ -36,6 +37,7 @@ namespace CursoCsharp.Ejercicios
         }
         private void Ejercicio2()
         {
+            panelVisor.Controls.Clear();
             Ejercicio2 ctl = new Ejercicio2();
             ctl.titulo = btnE2.Text;
             ctl.Dock = DockStyle.Fill;
@@ -49,6 +51,7 @@ namespace CursoCsharp.Ejercicios
         }
         private void Ejercicio3()
         {
+            panelVisor.Controls.Clear();
             Ejercicio3 ctl = new Ejercicio3();
             ctl.titulo = btnE3.Text;
             ctl.Dock = DockStyle.Fill;

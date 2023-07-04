@@ -87,7 +87,7 @@ namespace CursoCsharp.Ejercicios
             this.btnE2.Name = "btnE2";
             this.btnE2.Size = new System.Drawing.Size(241, 93);
             this.btnE2.TabIndex = 1;
-            this.btnE2.Text = "Ejercicio 2\r\n{Operadores Relacionales}";
+            this.btnE2.Text = "Ejercicio 2\r\n{Operadores Aritmeticos}";
             this.btnE2.UseVisualStyleBackColor = false;
             this.btnE2.Click += new System.EventHandler(this.btnE2_Click);
             // 
