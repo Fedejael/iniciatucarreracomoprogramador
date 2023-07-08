@@ -36,6 +36,7 @@ namespace CursoCsharp.Ejercicios
             this.btnE3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelVisor = new System.Windows.Forms.Panel();
+            this.btnE4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +56,7 @@ namespace CursoCsharp.Ejercicios
             this.flowLayoutPanel1.Controls.Add(this.btnE1);
             this.flowLayoutPanel1.Controls.Add(this.btnE2);
             this.flowLayoutPanel1.Controls.Add(this.btnE3);
+            this.flowLayoutPanel1.Controls.Add(this.btnE4);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 53);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -126,6 +128,21 @@ namespace CursoCsharp.Ejercicios
             this.panelVisor.Size = new System.Drawing.Size(529, 450);
             this.panelVisor.TabIndex = 1;
             // 
+            // btnE4
+            // 
+            this.btnE4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.btnE4.FlatAppearance.BorderSize = 0;
+            this.btnE4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnE4.Font = new System.Drawing.Font("Consolas", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnE4.ForeColor = System.Drawing.Color.White;
+            this.btnE4.Location = new System.Drawing.Point(3, 300);
+            this.btnE4.Name = "btnE4";
+            this.btnE4.Size = new System.Drawing.Size(241, 93);
+            this.btnE4.TabIndex = 3;
+            this.btnE4.Text = "Ejercicio 4\r\n[Condicional if]";
+            this.btnE4.UseVisualStyleBackColor = false;
+            this.btnE4.Click += new System.EventHandler(this.btnE4_Click);
+            // 
             // Menuprincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -153,5 +170,6 @@ namespace CursoCsharp.Ejercicios
         private System.Windows.Forms.Button btnE2;
         private System.Windows.Forms.Button btnE3;
         private System.Windows.Forms.Panel panelVisor;
+        private System.Windows.Forms.Button btnE4;
     }
 }

@@ -19,7 +19,7 @@ namespace CursoCsharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmcondicionales());
+            Application.Run(new Ejercicios.Menuprincipal());
         }
     }
 }

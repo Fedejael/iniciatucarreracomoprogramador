@@ -15,3 +15,4 @@ C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programa
 C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.Ejercicios.Ejercicio2.resources
 C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.Ejercicios.Ejercicio3.resources
 C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.Condicionales.frmcondicionales.resources
+C:\Users\CantoFedericoJ\Documents\Sistema CSharp Inicia tu carrera como programador\CursoCsharp\obj\Debug\CursoCsharp.Ejercicios.Ejercicio4.resources
